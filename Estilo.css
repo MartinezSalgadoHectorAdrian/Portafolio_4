@@ -1,0 +1,78 @@
+/* Fondo de la página y fuente */
+body {
+    background-color: #e8f1f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Botón de inicio */
+input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #004c99;
+}
+
+/* Título centrado */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+/* Contenedor de prácticas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    border: 1px solid #d1d1d1;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+/* Enlaces dentro de la tabla */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #004c99;
+}
+
+/* Texto de descripción dentro de cada celda */
+span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
